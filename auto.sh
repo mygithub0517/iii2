@@ -14,7 +14,7 @@ do
 	  #!FILES=https://github.com/mygithub0517/iii
 	  #!FILES=/E/Hadoop/pic2/*
 	  #!FILES=git@github.com:mygithub0517/iii2.git
-	  FILES=git_test3/repo/pic/*
+	  FILES=git_test3/repo/*
       for f in $FILES
       do
         /mingw64/bin/git add $f
@@ -29,6 +29,6 @@ do
   #!rm -rf /c/Users/Orozco/test/pic/*
   #!rm -rf https://github.com/mygithub0517/iii
   #!rm -rf /E/Hadoop/pic2/*
-  rm -rf git_test3/repo/pic/*
+  rm -rf git_test3/repo/*
   sleep 3
 done
