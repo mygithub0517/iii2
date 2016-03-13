@@ -14,7 +14,11 @@ do
 	  #!FILES=https://github.com/mygithub0517/iii
 	  #!FILES=/E/Hadoop/pic2/*
 	  #!FILES=git@github.com:mygithub0517/iii2.git
+<<<<<<< HEAD
 	  FILES=git_test3/repo/pic/*
+=======
+	  FILES=git_test3/repo/*
+>>>>>>> 4ed883e6f69257e79e5bcf0d8170e55255aaf138
       for f in $FILES
       do
         /mingw64/bin/git add $f
@@ -29,6 +33,10 @@ do
   #!rm -rf /c/Users/Orozco/test/pic/*
   #!rm -rf https://github.com/mygithub0517/iii
   #!rm -rf /E/Hadoop/pic2/*
+<<<<<<< HEAD
   rm -rf git_test3/repo/pic/*
+=======
+  rm -rf git_test3/repo/*
+>>>>>>> 4ed883e6f69257e79e5bcf0d8170e55255aaf138
   sleep 3
 done
